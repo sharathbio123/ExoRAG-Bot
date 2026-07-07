@@ -5,6 +5,19 @@ ExoRAG-Bot is a local Retrieval-Augmented Generation (RAG) pipeline designed to 
 "Local AI chatbot that lets you chat with your own scientific PDFs. Built with LangChain, Chroma DB, and Ollama to run completely offline (making it ideal for proprietary or pre-publication research.)".
 
 ## 📦 How to Install
+1. **Set Up a Virtual Environment & Dependencies:** 
+   Activate the environment
+   pip install langchain-core langchain-community langchain-ollama chromadb pypdf
+
+2. **Install & run Ollama**
+   ollama pull llama3.2:3b
+   ollama pull nomic-embed-text
+
+3. **How to run**
+   python Test_AI.py
+   "Chat with your data"
+   
+
 
 
 
