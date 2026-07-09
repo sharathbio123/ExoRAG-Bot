@@ -6,19 +6,16 @@ ExoRAG-Bot is a local Retrieval-Augmented Generation (RAG) pipeline designed to 
 
 ## 📦 How to Install
 1. **Set Up a Virtual Environment & Dependencies:**
-   
    Activate the environment
-   pip install langchain-core langchain-community langchain-ollama chromadb pypdf
+      pip install langchain-core langchain-community langchain-ollama chromadb pypdf
 
 3. **Install & run Ollama:**
-   
-   ollama pull llama3.2:3b
-   ollama pull nomic-embed-text
+      ollama pull llama3.2:3b
+      ollama pull nomic-embed-text
 
 5. **How to run:**
-   
-   python Test_AI.py
-   "Chat with your data"
+      python Test_AI.py
+      "Chat with your data"
    
 
 
